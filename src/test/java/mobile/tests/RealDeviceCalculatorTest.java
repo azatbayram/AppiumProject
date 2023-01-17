@@ -26,7 +26,7 @@ public class RealDeviceCalculatorTest {
         //version of android
         desiredCapabilities.setCapability(MobileCapabilityType.VERSION, "12.0");
         //device name, if it is real device we need to pass UUID parameter
-        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "RZ8N121CD8E");
+        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "here you need to enter your phone serial number");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 
         //to open app
